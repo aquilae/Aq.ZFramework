@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA471F90-CAA4-4BD5-9852-CD6DC2F2BC03}"
+	ProjectSection(SolutionItems) = preProject
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		global.json = global.json
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aq.ZFramework", "src\Aq.ZFramework\Aq.ZFramework.xproj", "{CC829A22-1FE4-4F74-A985-B16EDD1D9F5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8F87CC53-8601-4F46-ABEC-292B6D8699E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{48A72F27-64D9-4179-A2BE-E4741814BD30}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aq.ZFramework.Tests", "test\Aq.ZFramework.Tests\Aq.ZFramework.Tests.xproj", "{2755799B-003E-4754-A428-B650038B484C}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Aq.ZFramework.Showcase", "test\Aq.ZFramework.Showcase\Aq.ZFramework.Showcase.xproj", "{6060C475-71D3-4A83-B68E-F96514F96C2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CC829A22-1FE4-4F74-A985-B16EDD1D9F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC829A22-1FE4-4F74-A985-B16EDD1D9F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC829A22-1FE4-4F74-A985-B16EDD1D9F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC829A22-1FE4-4F74-A985-B16EDD1D9F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2755799B-003E-4754-A428-B650038B484C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2755799B-003E-4754-A428-B650038B484C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2755799B-003E-4754-A428-B650038B484C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2755799B-003E-4754-A428-B650038B484C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6060C475-71D3-4A83-B68E-F96514F96C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6060C475-71D3-4A83-B68E-F96514F96C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6060C475-71D3-4A83-B68E-F96514F96C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6060C475-71D3-4A83-B68E-F96514F96C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CC829A22-1FE4-4F74-A985-B16EDD1D9F5B} = {8F87CC53-8601-4F46-ABEC-292B6D8699E7}
+		{2755799B-003E-4754-A428-B650038B484C} = {48A72F27-64D9-4179-A2BE-E4741814BD30}
+		{6060C475-71D3-4A83-B68E-F96514F96C2B} = {48A72F27-64D9-4179-A2BE-E4741814BD30}
+	EndGlobalSection
+EndGlobal
